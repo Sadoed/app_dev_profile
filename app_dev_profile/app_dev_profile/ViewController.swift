@@ -11,12 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var customizeButton: UIButton!
     
     override func viewWillAppear(_ animated: Bool) {
         logoImage.layer.cornerRadius = 10
         logoImage.layer.masksToBounds = true
-
+        
+        customizeButton.layer.cornerRadius = 10
+        customizeButton.layer.masksToBounds = true
     }
+    
+    
     
     
     
