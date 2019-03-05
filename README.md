@@ -1,1 +1,2 @@
-# app_dev_profile
+# Developer profile page
+Here i have trained how to use adaptive views
